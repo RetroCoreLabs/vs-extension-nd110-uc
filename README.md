@@ -3,8 +3,8 @@
 Syntax highlighting, hover documentation, and assembly/disassembly
 commands for ND-100/110/120 microcode (`.uc`) files.
 
-Part of the [nd100uc toolchain](https://github.com/HackerCorpLabs/nd100uc).
-Uses the shared [nd-microcode-meta](https://github.com/HackerCorpLabs/nd-microcode-meta)
+Part of the [nd100uc toolchain](https://github.com/RetroCoreLabs/nd100uc).
+Uses the shared [nd-microcode-meta](https://github.com/RetroCoreLabs/nd-microcode-meta)
 submodule for token definitions and the TypeScript library.
 
 ## Features
@@ -37,7 +37,7 @@ submodule for token definitions and the TypeScript library.
 ## Install from source
 
 ```bash
-git clone --recurse-submodules https://github.com/HackerCorpLabs/vs-extension-nd110-uc.git
+git clone --recurse-submodules https://github.com/RetroCoreLabs/vs-extension-nd110-uc.git
 cd vs-extension-nd110-uc
 
 # Build the shared TS library (in the submodule)
@@ -64,7 +64,7 @@ code --install-extension nd-microcode.vsix
 
 | Path                                    | Purpose                                                   |
 |-----------------------------------------|-----------------------------------------------------------|
-| `external/meta/`                        | Submodule: [nd-microcode-meta](https://github.com/HackerCorpLabs/nd-microcode-meta) |
+| `external/meta/`                        | Submodule: [nd-microcode-meta](https://github.com/RetroCoreLabs/nd-microcode-meta) |
 | `external/meta/lib/ts/`                 | TypeScript library (`@nd100uc/microcode`)                 |
 | `external/meta/defs/`                   | YAML token/field definitions (source of truth)            |
 | `src/extension.ts`                      | Extension entry point                                     |
@@ -94,8 +94,8 @@ full pipeline documentation.
 
 | Repo | Description |
 |------|-------------|
-| [nd100uc](https://github.com/HackerCorpLabs/nd100uc) | Web viewer, ROM combiners, build pipeline |
-| [nd-microcode-meta](https://github.com/HackerCorpLabs/nd-microcode-meta) | Shared submodule: YAML definitions, TS library, reference ROMs |
+| [nd100uc](https://github.com/RetroCoreLabs/nd100uc) | Web viewer, ROM combiners, build pipeline |
+| [nd-microcode-meta](https://github.com/RetroCoreLabs/nd-microcode-meta) | Shared submodule: YAML definitions, TS library, reference ROMs |
 
 ## License
 
